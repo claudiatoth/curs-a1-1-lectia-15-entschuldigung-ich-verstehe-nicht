@@ -129,7 +129,7 @@ function buildVerbs() {
         '<tr><td>habe telefoniert</td><td>telefonieren</td><td><em style="color:#6b7280;">am telefonat</em></td></tr>' +
         '<tr><td>habe gespielt</td><td>spielen</td><td><em style="color:#6b7280;">am jucat</em></td></tr>' +
         '</table>' +
-        '<p style="margin-top:8px;"><strong>Formula:</strong> haben + ge-(rădăcină)-t. Vei învăța sistematic Perfekt într-o lecție viitoare. Acum doar îl <strong>recunoști</strong> în context.</p>' +
+        '<p style="margin-top:8px;"><strong>Formula:</strong> haben + ge-(rădăcină)-t. Vei învăța sistematic Perfekt în <strong>Lecția 17 — Schöne Ferien!</strong> Acum doar îl <strong>recunoști</strong> în context.</p>' +
         '</div></div></div>';
 
     container.innerHTML = html;
