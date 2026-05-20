@@ -17,8 +17,10 @@ function normalizeAnswer(str) {
         .replace(/î/g, 'i')
         .replace(/[șş]/g, 's')
         .replace(/[țţ]/g, 't')
-        .replace(/\s*\/\s*/g, '/')
-        .replace(/\s*,\s*/g, ',')
+        .replace(/…/g, '...')
+        .replace(/\s*\.\.\.\s*/g, ' ')
+        .replace(/\s*\/\s*/g, ' ')
+        .replace(/\s*,\s*/g, ' ')
         .replace(/\s+/g, ' ')
         .replace(/[.!?;:]/g, '');
 }
@@ -112,7 +114,7 @@ const ex4Data = [
     { id: 'e', sentence: 'Mein Freund ____ morgen nach Belgien. (fahren — tare a → ä)', translation: 'Prietenul meu pleacă mâine în Belgia.', correct: 'fährt', accept: ['fährt', 'faehrt'] },
     { id: 'f', sentence: 'Leider ____ ich keine Oliven. (mögen — modal, tare!)', translation: 'Din păcate, nu îmi plac măslinele.', correct: 'mag', accept: ['mag'] },
     { id: 'g', sentence: 'Acar ____ mit seinem Team. (sprechen — tare e → i)', translation: 'Acar vorbește cu echipa lui.', correct: 'spricht', accept: ['spricht'] },
-    { id: 'h', sentence: 'Andreea ____ um 8 Uhr ____. (aufstehen — trennbar!)', translation: 'Andreea se trezește la 8.', correct: 'steht / auf', accept: ['steht auf', 'steht/auf', 'steht, auf'] }
+    { id: 'h', sentence: 'Andreea ____ um 8 Uhr ____. (aufstehen — trennbar!)', translation: 'Andreea se trezește la 8.', correct: 'steht ... auf', accept: ['steht auf'] }
 ];
 
 function buildEx4() {

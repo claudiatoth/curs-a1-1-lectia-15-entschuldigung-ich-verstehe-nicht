@@ -16,8 +16,10 @@ function normalizeTestAnswer(str) {
         .replace(/î/g, 'i')
         .replace(/[șş]/g, 's')
         .replace(/[țţ]/g, 't')
-        .replace(/\s*\/\s*/g, '/')
-        .replace(/\s*,\s*/g, ',')
+        .replace(/…/g, '...')
+        .replace(/\s*\.\.\.\s*/g, ' ')
+        .replace(/\s*\/\s*/g, ' ')
+        .replace(/\s*,\s*/g, ' ')
         .replace(/\s+/g, ' ')
         .replace(/[.!?;:]/g, '');
 }
