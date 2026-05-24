@@ -82,7 +82,7 @@ function checkEx2() {
 // ============================================
 const ex3Data = [
     { id: 'a', sentence: 'Kannst du bitte das Abendessen ____? (verbe trennbare)', translation: 'Poți pregăti cina, te rog?', correct: 'vorbereiten', accept: ['vorbereiten'], hint: 'vorbereiten / umziehen / anrufen' },
-    { id: 'b', sentence: 'Mihai ____ mit Carolina (verbul pentru ajutor + Dativ).', translation: 'Mihai o ajută pe Carolina.', correct: 'hilft', accept: ['hilft'], hint: 'hilft / telefoniert / bevorzugt' },
+    { id: 'b', sentence: 'Mihai ____ mit Carolina.', translation: 'Mihai vorbește la telefon cu Carolina.', correct: 'telefoniert', accept: ['telefoniert'], hint: 'hilft / telefoniert / bevorzugt' },
     { id: 'c', sentence: 'Wir gehen ins Kino. Möchtest du ____? (verb separabil de însoțire)', translation: 'Vrei să vii (cu noi)?', correct: 'mitkommen', accept: ['mitkommen'], hint: 'mitnehmen / mitbringen / mitkommen' },
     { id: 'd', sentence: 'Können Sie mir bitte ____? (forma politicoasă cu Dativ)', translation: 'Mă puteți ajuta, vă rog?', correct: 'helfen', accept: ['helfen'], hint: 'aussehen / helfen / finden' },
     { id: 'e', sentence: 'Florian ____ gerne. Sein Bett ist sehr gemütlich. (verb tare a → ä)', translation: 'Lui Florian îi place să doarmă.', correct: 'schläft', accept: ['schläft', 'schlaeft'], hint: 'aufsteht / heißt / schläft' },
