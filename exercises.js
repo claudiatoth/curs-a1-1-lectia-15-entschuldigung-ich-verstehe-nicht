@@ -22,7 +22,7 @@ function normalizeAnswer(str) {
         .replace(/\s*\/\s*/g, ' ')
         .replace(/\s*,\s*/g, ' ')
         .replace(/\s+/g, ' ')
-        .replace(/[.!?;:]/g, '');
+        .replace(/[.!?;:]/g, '').trim();
 }
 
 // ============================================
