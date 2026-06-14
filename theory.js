@@ -112,14 +112,14 @@ const theoryHTML = `
                 <p>Indiferent de situație — la cumpărături, la doctor, la familie, pe stradă — dacă auzi sau vezi un cuvânt nou, ai <strong>4 întrebări</strong> standard. Învață-le pe TOATE: fiecare se folosește în alt context.</p>
                 <table class="grammar-table">
                     <tr><th>Întrebare germană</th><th>Când o folosești</th><th>Traducere RO</th></tr>
-                    <tr><td><strong>Was ist das?</strong></td><td>Vezi un obiect / o imagine și nu știi numele</td><td><em style="color:#6b7280;">Ce e asta?</em></td></tr>
-                    <tr><td><strong>Wie heißt das auf Deutsch?</strong></td><td>Știi obiectul, dar nu cuvântul german</td><td><em style="color:#6b7280;">Cum se numește (asta) în germană?</em></td></tr>
-                    <tr><td><strong>Wie sagt man „book" auf Deutsch?</strong></td><td>Știi cuvântul într-o limbă, vrei echivalentul german</td><td><em style="color:#6b7280;">Cum se zice „book" în germană?</em></td></tr>
-                    <tr><td><strong>Was bedeutet „Ausstellung"?</strong></td><td>Auzi cuvântul german, nu îi știi sensul</td><td><em style="color:#6b7280;">Ce înseamnă „Ausstellung"?</em></td></tr>
+                    <tr><td><strong>Was ist das?</strong></td><td>Vezi un obiect / o imagine și nu știi numele</td><td><em style="color:#5A5147;">Ce e asta?</em></td></tr>
+                    <tr><td><strong>Wie heißt das auf Deutsch?</strong></td><td>Știi obiectul, dar nu cuvântul german</td><td><em style="color:#5A5147;">Cum se numește (asta) în germană?</em></td></tr>
+                    <tr><td><strong>Wie sagt man „book" auf Deutsch?</strong></td><td>Știi cuvântul într-o limbă, vrei echivalentul german</td><td><em style="color:#5A5147;">Cum se zice „book" în germană?</em></td></tr>
+                    <tr><td><strong>Was bedeutet „Ausstellung"?</strong></td><td>Auzi cuvântul german, nu îi știi sensul</td><td><em style="color:#5A5147;">Ce înseamnă „Ausstellung"?</em></td></tr>
                 </table>
             </div>
 
-            <div class="theory-box" style="background: #fef3c7;">
+            <div class="theory-box" style="background: #F5F0E8;">
                 <h4>💡 Capcana: heißen vs sagen vs bedeuten</h4>
                 <p>Toate trei se folosesc în întrebări de traducere — dar NU sunt sinonime perfecte:</p>
                 <ul style="margin-left: 18px;">
@@ -152,14 +152,14 @@ const theoryHTML = `
                 <p>Conversația e dialog. Trebuie să știi și să răspunzi când CINEVA te întreabă pe tine. Patru pattern-uri simple:</p>
                 <table class="grammar-table">
                     <tr><th>Formulă</th><th>Exemplu</th><th>Traducere RO</th></tr>
-                    <tr><td><strong>Das ist + ein/eine + cuvântul</strong></td><td>Das ist ein Buch.</td><td><em style="color:#6b7280;">Asta e o carte.</em></td></tr>
-                    <tr><td><strong>Das heißt auf Deutsch „X"</strong></td><td>Das heißt auf Deutsch „Buch".</td><td><em style="color:#6b7280;">Asta se numește „Buch" în germană.</em></td></tr>
-                    <tr><td><strong>Auf Deutsch sagt man „X"</strong></td><td>Auf Deutsch sagt man „Buch".</td><td><em style="color:#6b7280;">În germană se spune „Buch".</em></td></tr>
-                    <tr><td><strong>„X" heißt auf Deutsch „Y"</strong></td><td>„Book" heißt auf Deutsch „Buch".</td><td><em style="color:#6b7280;">„Book" se traduce în germană prin „Buch".</em></td></tr>
+                    <tr><td><strong>Das ist + ein/eine + cuvântul</strong></td><td>Das ist ein Buch.</td><td><em style="color:#5A5147;">Asta e o carte.</em></td></tr>
+                    <tr><td><strong>Das heißt auf Deutsch „X"</strong></td><td>Das heißt auf Deutsch „Buch".</td><td><em style="color:#5A5147;">Asta se numește „Buch" în germană.</em></td></tr>
+                    <tr><td><strong>Auf Deutsch sagt man „X"</strong></td><td>Auf Deutsch sagt man „Buch".</td><td><em style="color:#5A5147;">În germană se spune „Buch".</em></td></tr>
+                    <tr><td><strong>„X" heißt auf Deutsch „Y"</strong></td><td>„Book" heißt auf Deutsch „Buch".</td><td><em style="color:#5A5147;">„Book" se traduce în germană prin „Buch".</em></td></tr>
                 </table>
             </div>
 
-            <div class="theory-box" style="background: #fef3c7;">
+            <div class="theory-box" style="background: #F5F0E8;">
                 <h4>🤷 Și dacă NU știi răspunsul?</h4>
                 <p>E ABSOLUT normal să nu știi tot — folosește una din formele:</p>
                 <ul style="margin-left: 18px;">
@@ -192,11 +192,11 @@ const theoryHTML = `
                 <p>Nu ai înțeles? Nu ai auzit? Te-a luat ploaia într-o conversație? Folosește una din:</p>
                 <table class="grammar-table">
                     <tr><th>Expresie germană</th><th>Când</th><th>Traducere RO</th></tr>
-                    <tr><td><strong>Entschuldigung, wie bitte?</strong></td><td>Nu ai auzit deloc, ceri să repete</td><td><em style="color:#6b7280;">Pardon, cum ai zis?</em></td></tr>
-                    <tr><td><strong>Kannst du das (bitte) wiederholen?</strong></td><td>Ceri politicos să repete (tu)</td><td><em style="color:#6b7280;">Poți repeta, te rog?</em></td></tr>
-                    <tr><td><strong>Können Sie das wiederholen?</strong></td><td>Forma politicoasă (Sie) — la străini</td><td><em style="color:#6b7280;">Puteți repeta?</em></td></tr>
-                    <tr><td><strong>Kannst du das buchstabieren?</strong></td><td>Cuvântul e nou, ceri să-l silabisească</td><td><em style="color:#6b7280;">Poți să-l silabisești?</em></td></tr>
-                    <tr><td><strong>Langsamer bitte!</strong></td><td>Vorbește prea repede</td><td><em style="color:#6b7280;">Mai rar, te rog!</em></td></tr>
+                    <tr><td><strong>Entschuldigung, wie bitte?</strong></td><td>Nu ai auzit deloc, ceri să repete</td><td><em style="color:#5A5147;">Pardon, cum ai zis?</em></td></tr>
+                    <tr><td><strong>Kannst du das (bitte) wiederholen?</strong></td><td>Ceri politicos să repete (tu)</td><td><em style="color:#5A5147;">Poți repeta, te rog?</em></td></tr>
+                    <tr><td><strong>Können Sie das wiederholen?</strong></td><td>Forma politicoasă (Sie) — la străini</td><td><em style="color:#5A5147;">Puteți repeta?</em></td></tr>
+                    <tr><td><strong>Kannst du das buchstabieren?</strong></td><td>Cuvântul e nou, ceri să-l silabisească</td><td><em style="color:#5A5147;">Poți să-l silabisești?</em></td></tr>
+                    <tr><td><strong>Langsamer bitte!</strong></td><td>Vorbește prea repede</td><td><em style="color:#5A5147;">Mai rar, te rog!</em></td></tr>
                 </table>
             </div>
 
@@ -209,7 +209,7 @@ const theoryHTML = `
                 <p>📌 Dacă nu îți amintești alfabetul german, recapitulează din <strong>Lecția A0 - Alphabet</strong>. Aici e cel mai utilizat în viața reală: la formulare, la telefon, când îți scrie cineva numele.</p>
             </div>
 
-            <div class="theory-box" style="background: #fef3c7;">
+            <div class="theory-box" style="background: #F5F0E8;">
                 <h4>⚠️ wiederholen: ATENȚIE la accent!</h4>
                 <p>Verbul <strong>wiederholen</strong> are <strong>DOUĂ variante</strong> în germană — depinde de accent:</p>
                 <ul style="margin-left: 18px;">
@@ -245,12 +245,12 @@ const theoryHTML = `
                 <h4>① Verb regulat (slab) — <em>machen</em> (a face)</h4>
                 <table class="grammar-table">
                     <tr><th>Pronume</th><th>Germană</th><th>Traducere RO</th></tr>
-                    <tr><td><strong>ich</strong></td><td>mache</td><td><em style="color:#6b7280;">fac</em></td></tr>
-                    <tr><td><strong>du</strong></td><td>machst</td><td><em style="color:#6b7280;">faci</em></td></tr>
-                    <tr><td><strong>er/sie/es</strong></td><td>macht</td><td><em style="color:#6b7280;">face</em></td></tr>
-                    <tr><td><strong>wir</strong></td><td>machen</td><td><em style="color:#6b7280;">facem</em></td></tr>
-                    <tr><td><strong>ihr</strong></td><td>macht</td><td><em style="color:#6b7280;">faceți</em></td></tr>
-                    <tr><td><strong>sie/Sie</strong></td><td>machen</td><td><em style="color:#6b7280;">fac / faceți (politicos)</em></td></tr>
+                    <tr><td><strong>ich</strong></td><td>mache</td><td><em style="color:#5A5147;">fac</em></td></tr>
+                    <tr><td><strong>du</strong></td><td>machst</td><td><em style="color:#5A5147;">faci</em></td></tr>
+                    <tr><td><strong>er/sie/es</strong></td><td>macht</td><td><em style="color:#5A5147;">face</em></td></tr>
+                    <tr><td><strong>wir</strong></td><td>machen</td><td><em style="color:#5A5147;">facem</em></td></tr>
+                    <tr><td><strong>ihr</strong></td><td>macht</td><td><em style="color:#5A5147;">faceți</em></td></tr>
+                    <tr><td><strong>sie/Sie</strong></td><td>machen</td><td><em style="color:#5A5147;">fac / faceți (politicos)</em></td></tr>
                 </table>
                 <p style="margin: 6px 0 0 0; font-size: 0.92em;">📎 Același tipar: spielen, lernen, hören, wohnen, kaufen, kochen…</p>
             </div>
@@ -259,12 +259,12 @@ const theoryHTML = `
                 <h4>② -t Stamm (+e adițional) — <em>arbeiten</em> (a lucra)</h4>
                 <table class="grammar-table">
                     <tr><th>Pronume</th><th>Germană</th><th>Traducere RO</th></tr>
-                    <tr><td><strong>ich</strong></td><td>arbeite</td><td><em style="color:#6b7280;">lucrez</em></td></tr>
-                    <tr><td><strong>du</strong></td><td>arbeit<strong style="color:#dc2626;">e</strong>st</td><td><em style="color:#6b7280;">lucrezi</em></td></tr>
-                    <tr><td><strong>er/sie/es</strong></td><td>arbeit<strong style="color:#dc2626;">e</strong>t</td><td><em style="color:#6b7280;">lucrează</em></td></tr>
-                    <tr><td><strong>wir</strong></td><td>arbeiten</td><td><em style="color:#6b7280;">lucrăm</em></td></tr>
-                    <tr><td><strong>ihr</strong></td><td>arbeit<strong style="color:#dc2626;">e</strong>t</td><td><em style="color:#6b7280;">lucrați</em></td></tr>
-                    <tr><td><strong>sie/Sie</strong></td><td>arbeiten</td><td><em style="color:#6b7280;">lucrează / lucrați</em></td></tr>
+                    <tr><td><strong>ich</strong></td><td>arbeite</td><td><em style="color:#5A5147;">lucrez</em></td></tr>
+                    <tr><td><strong>du</strong></td><td>arbeit<strong style="color:#dc2626;">e</strong>st</td><td><em style="color:#5A5147;">lucrezi</em></td></tr>
+                    <tr><td><strong>er/sie/es</strong></td><td>arbeit<strong style="color:#dc2626;">e</strong>t</td><td><em style="color:#5A5147;">lucrează</em></td></tr>
+                    <tr><td><strong>wir</strong></td><td>arbeiten</td><td><em style="color:#5A5147;">lucrăm</em></td></tr>
+                    <tr><td><strong>ihr</strong></td><td>arbeit<strong style="color:#dc2626;">e</strong>t</td><td><em style="color:#5A5147;">lucrați</em></td></tr>
+                    <tr><td><strong>sie/Sie</strong></td><td>arbeiten</td><td><em style="color:#5A5147;">lucrează / lucrați</em></td></tr>
                 </table>
                 <p style="margin: 6px 0 0 0; font-size: 0.92em;">📎 Adaugi -e la du/er/ihr când radicalul se termină în <strong>t, d, m, n</strong> (T-D-M-N). Verbe: kosten, antworten, öffnen, regnen.</p>
             </div>
@@ -273,12 +273,12 @@ const theoryHTML = `
                 <h4>③ Tare e → i — <em>essen</em> (a mânca)</h4>
                 <table class="grammar-table">
                     <tr><th>Pronume</th><th>Germană</th><th>Traducere RO</th></tr>
-                    <tr><td><strong>ich</strong></td><td>esse</td><td><em style="color:#6b7280;">mănânc</em></td></tr>
-                    <tr><td><strong>du</strong></td><td>i<strong style="color:#dc2626;">ss</strong>t</td><td><em style="color:#6b7280;">mănânci</em></td></tr>
-                    <tr><td><strong>er/sie/es</strong></td><td>i<strong style="color:#dc2626;">ss</strong>t</td><td><em style="color:#6b7280;">mănâncă</em></td></tr>
-                    <tr><td><strong>wir</strong></td><td>essen</td><td><em style="color:#6b7280;">mâncăm</em></td></tr>
-                    <tr><td><strong>ihr</strong></td><td>esst</td><td><em style="color:#6b7280;">mâncați</em></td></tr>
-                    <tr><td><strong>sie/Sie</strong></td><td>essen</td><td><em style="color:#6b7280;">mănâncă</em></td></tr>
+                    <tr><td><strong>ich</strong></td><td>esse</td><td><em style="color:#5A5147;">mănânc</em></td></tr>
+                    <tr><td><strong>du</strong></td><td>i<strong style="color:#dc2626;">ss</strong>t</td><td><em style="color:#5A5147;">mănânci</em></td></tr>
+                    <tr><td><strong>er/sie/es</strong></td><td>i<strong style="color:#dc2626;">ss</strong>t</td><td><em style="color:#5A5147;">mănâncă</em></td></tr>
+                    <tr><td><strong>wir</strong></td><td>essen</td><td><em style="color:#5A5147;">mâncăm</em></td></tr>
+                    <tr><td><strong>ihr</strong></td><td>esst</td><td><em style="color:#5A5147;">mâncați</em></td></tr>
+                    <tr><td><strong>sie/Sie</strong></td><td>essen</td><td><em style="color:#5A5147;">mănâncă</em></td></tr>
                 </table>
                 <p style="margin: 6px 0 0 0; font-size: 0.92em;">📎 Schimbarea e <strong>doar la du și er/sie/es</strong>. Același tipar: lesen → liest, sprechen → spricht, helfen → hilft, geben → gibt.</p>
             </div>
@@ -287,12 +287,12 @@ const theoryHTML = `
                 <h4>④ Tare a → ä — <em>fahren</em> (a merge cu un vehicul)</h4>
                 <table class="grammar-table">
                     <tr><th>Pronume</th><th>Germană</th><th>Traducere RO</th></tr>
-                    <tr><td><strong>ich</strong></td><td>fahre</td><td><em style="color:#6b7280;">merg (cu mașina/trenul)</em></td></tr>
-                    <tr><td><strong>du</strong></td><td>f<strong style="color:#dc2626;">ä</strong>hrst</td><td><em style="color:#6b7280;">mergi</em></td></tr>
-                    <tr><td><strong>er/sie/es</strong></td><td>f<strong style="color:#dc2626;">ä</strong>hrt</td><td><em style="color:#6b7280;">merge</em></td></tr>
-                    <tr><td><strong>wir</strong></td><td>fahren</td><td><em style="color:#6b7280;">mergem</em></td></tr>
-                    <tr><td><strong>ihr</strong></td><td>fahrt</td><td><em style="color:#6b7280;">mergeți</em></td></tr>
-                    <tr><td><strong>sie/Sie</strong></td><td>fahren</td><td><em style="color:#6b7280;">merg / mergeți</em></td></tr>
+                    <tr><td><strong>ich</strong></td><td>fahre</td><td><em style="color:#5A5147;">merg (cu mașina/trenul)</em></td></tr>
+                    <tr><td><strong>du</strong></td><td>f<strong style="color:#dc2626;">ä</strong>hrst</td><td><em style="color:#5A5147;">mergi</em></td></tr>
+                    <tr><td><strong>er/sie/es</strong></td><td>f<strong style="color:#dc2626;">ä</strong>hrt</td><td><em style="color:#5A5147;">merge</em></td></tr>
+                    <tr><td><strong>wir</strong></td><td>fahren</td><td><em style="color:#5A5147;">mergem</em></td></tr>
+                    <tr><td><strong>ihr</strong></td><td>fahrt</td><td><em style="color:#5A5147;">mergeți</em></td></tr>
+                    <tr><td><strong>sie/Sie</strong></td><td>fahren</td><td><em style="color:#5A5147;">merg / mergeți</em></td></tr>
                 </table>
                 <p style="margin: 6px 0 0 0; font-size: 0.92em;">📎 Same tipar: tragen → trägt, laufen → läuft, schlafen → schläft.</p>
             </div>
@@ -301,12 +301,12 @@ const theoryHTML = `
                 <h4>⑤ Modal — <em>können</em> (a putea)</h4>
                 <table class="grammar-table">
                     <tr><th>Pronume</th><th>Germană</th><th>Traducere RO</th></tr>
-                    <tr><td><strong>ich</strong></td><td>kann</td><td><em style="color:#6b7280;">pot</em></td></tr>
-                    <tr><td><strong>du</strong></td><td>kannst</td><td><em style="color:#6b7280;">poți</em></td></tr>
-                    <tr><td><strong>er/sie/es</strong></td><td>kann</td><td><em style="color:#6b7280;">poate</em></td></tr>
-                    <tr><td><strong>wir</strong></td><td>können</td><td><em style="color:#6b7280;">putem</em></td></tr>
-                    <tr><td><strong>ihr</strong></td><td>könnt</td><td><em style="color:#6b7280;">puteți</em></td></tr>
-                    <tr><td><strong>sie/Sie</strong></td><td>können</td><td><em style="color:#6b7280;">pot / puteți</em></td></tr>
+                    <tr><td><strong>ich</strong></td><td>kann</td><td><em style="color:#5A5147;">pot</em></td></tr>
+                    <tr><td><strong>du</strong></td><td>kannst</td><td><em style="color:#5A5147;">poți</em></td></tr>
+                    <tr><td><strong>er/sie/es</strong></td><td>kann</td><td><em style="color:#5A5147;">poate</em></td></tr>
+                    <tr><td><strong>wir</strong></td><td>können</td><td><em style="color:#5A5147;">putem</em></td></tr>
+                    <tr><td><strong>ihr</strong></td><td>könnt</td><td><em style="color:#5A5147;">puteți</em></td></tr>
+                    <tr><td><strong>sie/Sie</strong></td><td>können</td><td><em style="color:#5A5147;">pot / puteți</em></td></tr>
                 </table>
                 <p style="margin: 6px 0 0 0; font-size: 0.92em;">📎 Modalele NU au -t la er/sie/es (ich kann = er kann!). Same tipar: müssen, wollen, dürfen, sollen, mögen. 🦋 În WS79 vezi <em>Du kannst gut zeichnen!</em></p>
             </div>
@@ -315,12 +315,12 @@ const theoryHTML = `
                 <h4>⑥ Trennbar (separabil) — <em>aufstehen</em> (a se trezi)</h4>
                 <table class="grammar-table">
                     <tr><th>Pronume</th><th>Germană</th><th>Traducere RO</th></tr>
-                    <tr><td><strong>ich</strong></td><td>stehe ... <strong style="color:#dc2626;">auf</strong></td><td><em style="color:#6b7280;">mă trezesc</em></td></tr>
-                    <tr><td><strong>du</strong></td><td>stehst ... <strong style="color:#dc2626;">auf</strong></td><td><em style="color:#6b7280;">te trezești</em></td></tr>
-                    <tr><td><strong>er/sie/es</strong></td><td>steht ... <strong style="color:#dc2626;">auf</strong></td><td><em style="color:#6b7280;">se trezește</em></td></tr>
-                    <tr><td><strong>wir</strong></td><td>stehen ... <strong style="color:#dc2626;">auf</strong></td><td><em style="color:#6b7280;">ne trezim</em></td></tr>
-                    <tr><td><strong>ihr</strong></td><td>steht ... <strong style="color:#dc2626;">auf</strong></td><td><em style="color:#6b7280;">vă treziți</em></td></tr>
-                    <tr><td><strong>sie/Sie</strong></td><td>stehen ... <strong style="color:#dc2626;">auf</strong></td><td><em style="color:#6b7280;">se trezesc</em></td></tr>
+                    <tr><td><strong>ich</strong></td><td>stehe ... <strong style="color:#dc2626;">auf</strong></td><td><em style="color:#5A5147;">mă trezesc</em></td></tr>
+                    <tr><td><strong>du</strong></td><td>stehst ... <strong style="color:#dc2626;">auf</strong></td><td><em style="color:#5A5147;">te trezești</em></td></tr>
+                    <tr><td><strong>er/sie/es</strong></td><td>steht ... <strong style="color:#dc2626;">auf</strong></td><td><em style="color:#5A5147;">se trezește</em></td></tr>
+                    <tr><td><strong>wir</strong></td><td>stehen ... <strong style="color:#dc2626;">auf</strong></td><td><em style="color:#5A5147;">ne trezim</em></td></tr>
+                    <tr><td><strong>ihr</strong></td><td>steht ... <strong style="color:#dc2626;">auf</strong></td><td><em style="color:#5A5147;">vă treziți</em></td></tr>
+                    <tr><td><strong>sie/Sie</strong></td><td>stehen ... <strong style="color:#dc2626;">auf</strong></td><td><em style="color:#5A5147;">se trezesc</em></td></tr>
                 </table>
                 <p style="margin: 6px 0 0 0; font-size: 0.92em;">📎 Prefixul (auf, an, ab, mit, vor) zboară LA FINAL. Andreea steht um 7 Uhr <strong>auf</strong>. Same tipar: anrufen, abfahren, ankommen, mitkommen, vorbereiten.</p>
             </div>

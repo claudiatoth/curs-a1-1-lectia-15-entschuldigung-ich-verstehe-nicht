@@ -41,18 +41,18 @@ const verbsData = [
 function tenseTable(title, rows) {
     let r = '';
     rows.forEach(function (x) {
-        r += '<tr><td><strong>' + x[0] + '</strong></td><td>' + x[1] + '</td><td><em style="color:#6b7280;">' + x[2] + '</em></td></tr>';
+        r += '<tr><td><strong>' + x[0] + '</strong></td><td>' + x[1] + '</td><td><em style="color:#5A5147;">' + x[2] + '</em></td></tr>';
     });
     return '<div class="theory-box" style="margin:8px 0;"><h4>' + title + '</h4><table class="grammar-table"><tr><th>Pronume</th><th>Germană</th><th>Traducere RO</th></tr>' + r + '</table></div>';
 }
 
 function perfektCompact(v) {
     var ex = v.perf[2] || v.perf[0];
-    var hint = '<small style="color:#6b7280;">Conjugi auxiliarul ca de obicei (ich habe, du hast, er hat...) + <strong>' + v.part + '</strong>.</small>';
+    var hint = '<small style="color:#5A5147;">Conjugi auxiliarul ca de obicei (ich habe, du hast, er hat...) + <strong>' + v.part + '</strong>.</small>';
     return '<div class="theory-box" style="margin:8px 0; background:#d1fae5;">' +
         '<h4>Perfekt (pe scurt)</h4>' +
         '<p style="margin:0;">Auxiliar <strong>' + v.aux + '</strong> + participiul <strong>' + v.part + '</strong><br>' +
-        '<em>Exemplu:</em> ' + ex[0] + ' <strong>' + ex[1] + '</strong> · <em style="color:#6b7280;">' + ex[2] + '</em><br>' +
+        '<em>Exemplu:</em> ' + ex[0] + ' <strong>' + ex[1] + '</strong> · <em style="color:#5A5147;">' + ex[2] + '</em><br>' +
         hint + '</p></div>';
 }
 
@@ -84,7 +84,7 @@ function buildVerbs() {
             tenseTable('Präsens (prezent)', v.praes) +
             tenseTable('Präteritum (imperfect)', v.praet) +
             perfektCompact(v) +
-            (v.note ? '<div class="theory-box" style="background:#fef3c7;"><p style="margin:0;"><strong>⚠️ </strong>' + v.note + '</p></div>' : '') +
+            (v.note ? '<div class="theory-box" style="background:#F5F0E8;"><p style="margin:0;"><strong>⚠️ </strong>' + v.note + '</p></div>' : '') +
             '</div></div>';
     });
 
@@ -95,19 +95,19 @@ function buildVerbs() {
         '<span class="sub-arrow">▼</span>' +
         '</div>' +
         '<div class="sub-section-content" id="verb-' + verbsData.length + '">' +
-        '<div class="theory-box" style="background:#fef3c7;">' +
+        '<div class="theory-box" style="background:#F5F0E8;">' +
         '<h4>Reminder rapid — fără tabele complete</h4>' +
         '<p style="margin:0 0 8px 0;">La A1 cursantul are deja Präsens complet pentru verbele tari. Doar persoanele III ies din tipar — recap:</p>' +
         '<table class="grammar-table">' +
         '<tr><th>Infinitiv</th><th>er/sie/es</th><th>Tip schimbare</th><th>Traducere RO</th></tr>' +
-        '<tr><td><strong>essen</strong></td><td>isst</td><td>e → i</td><td><em style="color:#6b7280;">el mănâncă</em></td></tr>' +
-        '<tr><td><strong>lesen</strong></td><td>liest</td><td>e → ie</td><td><em style="color:#6b7280;">el citește</em></td></tr>' +
-        '<tr><td><strong>sprechen</strong></td><td>spricht</td><td>e → i</td><td><em style="color:#6b7280;">el vorbește</em></td></tr>' +
-        '<tr><td><strong>helfen</strong></td><td>hilft</td><td>e → i + Dativ</td><td><em style="color:#6b7280;">el ajută (+ Dativ)</em></td></tr>' +
-        '<tr><td><strong>fahren</strong></td><td>fährt</td><td>a → ä</td><td><em style="color:#6b7280;">el merge (cu vehicul)</em></td></tr>' +
-        '<tr><td><strong>tragen</strong></td><td>trägt</td><td>a → ä</td><td><em style="color:#6b7280;">el poartă</em></td></tr>' +
-        '<tr><td><strong>schlafen</strong></td><td>schläft</td><td>a → ä</td><td><em style="color:#6b7280;">el doarme</em></td></tr>' +
-        '<tr><td><strong>können</strong></td><td>kann</td><td>modal (NU -t)</td><td><em style="color:#6b7280;">el poate</em></td></tr>' +
+        '<tr><td><strong>essen</strong></td><td>isst</td><td>e → i</td><td><em style="color:#5A5147;">el mănâncă</em></td></tr>' +
+        '<tr><td><strong>lesen</strong></td><td>liest</td><td>e → ie</td><td><em style="color:#5A5147;">el citește</em></td></tr>' +
+        '<tr><td><strong>sprechen</strong></td><td>spricht</td><td>e → i</td><td><em style="color:#5A5147;">el vorbește</em></td></tr>' +
+        '<tr><td><strong>helfen</strong></td><td>hilft</td><td>e → i + Dativ</td><td><em style="color:#5A5147;">el ajută (+ Dativ)</em></td></tr>' +
+        '<tr><td><strong>fahren</strong></td><td>fährt</td><td>a → ä</td><td><em style="color:#5A5147;">el merge (cu vehicul)</em></td></tr>' +
+        '<tr><td><strong>tragen</strong></td><td>trägt</td><td>a → ä</td><td><em style="color:#5A5147;">el poartă</em></td></tr>' +
+        '<tr><td><strong>schlafen</strong></td><td>schläft</td><td>a → ä</td><td><em style="color:#5A5147;">el doarme</em></td></tr>' +
+        '<tr><td><strong>können</strong></td><td>kann</td><td>modal (NU -t)</td><td><em style="color:#5A5147;">el poate</em></td></tr>' +
         '</table>' +
         '<p style="margin:8px 0 0 0; font-size:0.92em;">Pentru tabele complete, vezi Lecțiile 10 (Starke Verben) și 6/11 (Modalverben).</p>' +
         '</div></div></div>';
@@ -124,10 +124,10 @@ function buildVerbs() {
         '<p>În contextul narativ al lecției (Andreea hat viele Fotos gemacht / Wir haben eine Ausstellung besucht) apare deja <strong>Perfekt</strong> — un timp trecut foarte folosit în germană pentru povestire.</p>' +
         '<table class="grammar-table">' +
         '<tr><th>Formă Perfekt</th><th>Verb infinitiv</th><th>Traducere RO</th></tr>' +
-        '<tr><td>habe gemacht</td><td>machen</td><td><em style="color:#6b7280;">am făcut</em></td></tr>' +
-        '<tr><td>habe besucht</td><td>besuchen</td><td><em style="color:#6b7280;">am vizitat</em></td></tr>' +
-        '<tr><td>habe telefoniert</td><td>telefonieren</td><td><em style="color:#6b7280;">am telefonat</em></td></tr>' +
-        '<tr><td>habe gespielt</td><td>spielen</td><td><em style="color:#6b7280;">am jucat</em></td></tr>' +
+        '<tr><td>habe gemacht</td><td>machen</td><td><em style="color:#5A5147;">am făcut</em></td></tr>' +
+        '<tr><td>habe besucht</td><td>besuchen</td><td><em style="color:#5A5147;">am vizitat</em></td></tr>' +
+        '<tr><td>habe telefoniert</td><td>telefonieren</td><td><em style="color:#5A5147;">am telefonat</em></td></tr>' +
+        '<tr><td>habe gespielt</td><td>spielen</td><td><em style="color:#5A5147;">am jucat</em></td></tr>' +
         '</table>' +
         '<p style="margin-top:8px;"><strong>Formula:</strong> haben + ge-(rădăcină)-t. Vei învăța sistematic Perfekt în <strong>Lecția 17 — Schöne Ferien!</strong> Acum doar îl <strong>recunoști</strong> în context.</p>' +
         '</div></div></div>';
